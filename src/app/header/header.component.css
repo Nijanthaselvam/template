@@ -1,0 +1,26 @@
+.logo {
+    text-align: center;
+    /* border:1px solid; */
+    background-color:#F8FDF7;
+}
+
+.header{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+
+.clear{
+    clear: both;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+.dropdown-menu>li>a{
+    z-index: 2;
+}
+
+.nav>li:hover{
+      background-color: indianred;
+}

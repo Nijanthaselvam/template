@@ -1,0 +1,41 @@
+footer{
+	width:100%;
+	height:140px;
+	background-color:#1d202c;
+	position:relative;
+}
+footer > div{
+	position:absolute;
+	margin-left:20px;
+	height:100%;
+	width:90%;
+	
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-top:50px;
+}
+.footer-column ul li{
+	text-decoration:none;
+	list-style:none;
+	
+}
+.footer-column ul li a{
+	color:white;
+	text-decoration:none;
+	
+}
+.footer-column ul li p{
+	color:white;
+	text-decoration:none;
+	color:gray;
+}
+.footer-column ul li h3{
+	color:white;
+
+	
+}
+.footfixed{
+    position: fixed;
+    bottom: 0;
+}
